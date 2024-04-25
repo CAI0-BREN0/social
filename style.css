@@ -121,7 +121,7 @@ ul li:hover:nth-child(6) a:before{
 }
 @media screen and (max-width: 768px) {
     ul{
-        flex-wrap: wrap;
+        display: "";
     }
     ul li {
         margin: 0 10px; /* Reduzindo a margem ainda mais para telas menores */
