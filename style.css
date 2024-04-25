@@ -121,6 +121,8 @@ ul li:hover:nth-child(6) a:before{
 }
 @media (max-width: 768px) {
     ul {
+        flex-wrap: wrap;
+        justify-content: center;
         flex-direction: column;
     }
     ul li {
