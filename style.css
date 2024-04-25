@@ -119,13 +119,19 @@ ul li:hover:nth-child(6) a:after{
 ul li:hover:nth-child(6) a:before{
     background: #8901e4;
 }
-@media (max-width: 768px) {
-    ul {
-        flex-wrap: wrap;
-        justify-content: center;
-        flex-direction: column;
-    }
+@media screen and (max-width: 768px) {
     ul li {
-        margin: 20px 0;
+        margin: 0 10px; /* Reduzindo a margem ainda mais para telas menores */
+    }
+    
+    ul li a .bi {
+        font-size: 24px; /* Reduzindo ainda mais o tamanho do ícone */
+        line-height: 48px; /* Ajustando a linha de altura para centralizar o ícone */
+    }
+    
+    ul li a {
+        width: 48px; /* Reduzindo ainda mais o tamanho do bloco */
+        height: 48px; /* Reduzindo ainda mais o tamanho do bloco */
+        box-shadow: -5px 5px 5px rgba(0,0,0,.5); /* Reduzindo ainda mais a sombra */
     }
 }
