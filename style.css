@@ -119,3 +119,11 @@ ul li:hover:nth-child(6) a:after{
 ul li:hover:nth-child(6) a:before{
     background: #8901e4;
 }
+@media (max-width: 768px) {
+    ul {
+        flex-direction: column;
+    }
+    ul li {
+        margin: 20px 0;
+    }
+}
